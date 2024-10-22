@@ -5,10 +5,10 @@ https://www.lexaloffle.com/pico-8.php
 
 #Installation:
 
-Clone or donwload de repository and put the "Port" folder in the root of SDCARD.
+Clone or donwload de repository and put the "Ports" folder in the root of SDCARD.
 
 Download the pico8 binary from lexaloffle web site and get the raspberry pi version, them put pico8_64 and pico8.dat in:
 
-Port/Pico8/bin/
+Ports/Pico8/bin/
 
 enjoy!!
