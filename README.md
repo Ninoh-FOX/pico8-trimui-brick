@@ -3,7 +3,7 @@ Pico8 standalone splore for Trimui Brick console
 
 https://www.lexaloffle.com/pico-8.php
 
-#Installation:
+## Installation:
 
 Clone or donwload de repository and put the "Ports" and "Emus" folder in the root of SDCARD.
 
