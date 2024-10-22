@@ -1,0 +1,9 @@
+{
+    "label":"Pico8 Fullscreen",
+    "icon":"pico8.png",
+    "iconsel":"pico8.png",
+    "background":"bg.png",
+    "themecolor":"FFB800",
+    "launch":"launch.sh",
+    "description":"Pico8 splore standalone"
+}
