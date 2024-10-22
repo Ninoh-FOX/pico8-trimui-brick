@@ -1,0 +1,26 @@
+{
+    "label":"PICO8",
+    "icon":"ic-PICO.png",
+    "background":"BG.png",
+    "themecolor":"00FF88",
+    "launch":"launch1.sh",
+    "rompath":"../../Roms/PICO8",
+    "imgpath":"../../Imgs/PICO8",
+    "useswap":1,
+    "shortname":0,
+    "hidebios":1,
+    "launchlist": [
+        {
+            "name": "Pico8 libretro",
+            "launch": "launch.sh"
+        },
+        {
+            "name": "Pico8",
+            "launch": "launch1.sh"
+        },
+        {
+            "name": "Pico8 fullscreen",
+            "launch": "launch2.sh"
+        }
+    ]
+}
