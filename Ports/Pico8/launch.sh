@@ -16,4 +16,7 @@ echo 1 > /sys/devices/system/cpu/cpu1/online
 echo 1 > /sys/devices/system/cpu/cpu3/online
 echo 1 > /sys/devices/system/cpu/cpu2/online
 
-pico8_64 -splore 2>&1 | tee $HOME/log.txt
+pico8_64 -splore -root_path "/mnt/SDCARD/Roms/PICO8/" 2>&1 | tee $HOME/log.txt
+
+cp /mnt/SDCARD/Ports/Pico8/.lexaloffle/pico-8/bbs/carts/*.p8.png /mnt/SDCARD/Roms/PICO8/
+sync
