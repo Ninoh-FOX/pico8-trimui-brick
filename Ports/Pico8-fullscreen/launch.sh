@@ -18,5 +18,11 @@ echo 1 > /sys/devices/system/cpu/cpu2/online
 
 pico8_64 -splore -draw_rect 0,0,1024,768 -root_path "/mnt/SDCARD/Roms/PICO8/" 2>&1 | tee $HOME/log.txt
 
-cp /mnt/SDCARD/Ports/Pico8/.lexaloffle/pico-8/bbs/carts/*.p8.png /mnt/SDCARD/Roms/PICO8/
+for file in /mnt/SDCARD/Ports/Pico8/.lexaloffle/pico-8/bbs/carts/*.p8.png; do
+    dest="/mnt/SDCARD/Roms/PICO8/$(basename "$file")"
+    if [ ! -e "$dest" ]; then
+        cp "$file" "$dest"
+    fi
+done
+
 sync
