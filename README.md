@@ -12,3 +12,16 @@ Download the pico8 binary from lexaloffle web site and get the raspberry pi vers
 Ports/Pico8/bin/
 
 enjoy!!
+
+## controls:
+
+Menu = escape.
+L1 = pagup.
+R1 = pagdown.
+select = switcher mouse mode.
+
+in mouse mode:
+
+L1 = mouse button left.
+R1 = mouse button right.
+dpad = mouse cursor.
